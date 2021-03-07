@@ -47,7 +47,7 @@ class NombreController extends Controller
     {
         {
             return view('Vista2', ['id' => $id,
-                                 'title' => 'Hola Mundo']);
+                                 'title' => 'Nombre']);
         }
     }
 

@@ -13,7 +13,7 @@ class InicioController extends Controller
      */
     public function index()
     {
-        return "index";
+        //return "index";
     }
 
     /**
@@ -47,7 +47,7 @@ class InicioController extends Controller
     {
         {
             return view('Vista1', ['id' => $id,
-                                 'title' => 'Hola Mundo']);
+                                 'title' => 'Pagina de Inicio']);
         }
     }
 

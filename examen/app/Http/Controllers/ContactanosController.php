@@ -13,7 +13,7 @@ class ContactanosController extends Controller
      */
     public function index()
     {
-        return view('Vista3');
+        return "index";
     }
 
     /**
@@ -45,7 +45,7 @@ class ContactanosController extends Controller
      */
     public function show($id)
     {
-        return "ID:".$id;
+        return view('Vista3');
     }
 
     /**
